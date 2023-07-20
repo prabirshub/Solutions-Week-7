@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Healthy Food | Restaurant</title>
+    <style>
+      body {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+          'Lucida Sans', Arial, sans-serif;
+      }
+      .container {
+        width: 1200px;
+        margin: auto;
+        border: 2px solid black;
+      }
+      nav {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        padding: 0 10px;
+      }
+      nav img {
+        width: 50px;
+      }
+      nav a {
+        text-decoration: none;
+        color: black;
+        padding-right: 50px;
+        transition: all 0.3s;
+      }
+      nav a:hover {
+        color: #00ee7f;
+      }
+      .hero-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 10px;
+        gap: 20px;
+        align-items: center;
+      }
+      nav button {
+        margin-left: 60%;
+        padding: 10px 0px;
+        background-color: #00ee7f;
+        border: 0;
+        border-radius: 5px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      .text-section {
+        padding: 0px 50px;
+      }
+      .image-section {
+        background-color: yellow;
+        height: 100%;
+        max-height: 90vh;
+      }
+
+      .text-section h2 {
+        font-size: 40px;
+      }
+      .text-section p {
+        color: #4c665d;
+        line-height: 1.7;
+      }
+      .text-section button {
+        padding: 10px 50px;
+        background-color: black;
+        color: #fff;
+        font-size: 18px;
+        border: 0;
+        margin-top: 30px;
+        cursor: pointer;
+      }
+      .image-section img {
+        width: 70%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <img
+          src="https://png.pngtree.com/png-clipart/20230401/original/pngtree-healthy-food-logo-design-with-chopstick-png-image_9016805.png"
+          alt="logo"
+        />
+        <div>
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </div>
+
+        <button>Login</button>
+      </nav>
+      <div class="hero-container">
+        <section class="text-section">
+          <h2>Healthy Food</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque nam,
+            voluptas incidunt maxime mollitia alias. Cum magni rem
+            necessitatibus omnis corrupti consequuntur esse explicabo, maxime
+            similique optio distinctio, commodi repudiandae?Neque nam, voluptas
+            incidunt maxime mollitia alias. Cum magni rem necessitatibus
+          </p>
+          <button>Read More</button>
+        </section>
+        <section class="image-section">
+          <img
+            src="https://media.istockphoto.com/id/870173346/photo/healthy-food.jpg?s=612x612&w=0&k=20&c=g6ewhe862ZaSQevMw7VS-VJzwXXEHL6Gqpr-fEDx0jY="
+            alt="Healthy Food"
+            alt="Healthy Food"
+          />
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
